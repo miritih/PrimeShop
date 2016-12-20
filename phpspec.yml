@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: PrimeShop
+        psr4_prefix: PrimeShop
+        src_path: app

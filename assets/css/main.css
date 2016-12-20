@@ -1,0 +1,62 @@
+
+.center {
+  text-align: center;
+    color: #d43f3a;
+}
+.center .lead{
+    color: #010101;
+    font-size: 16px;
+}
+#team-scroller .designation {
+  marn-tgiop: 10px;
+  display: block;
+    color: #d9534f;
+}#p-scroller .designation{
+  margin-top: 10px;
+  display: block;
+    color: #d9534f;
+}
+.member {
+  margin: 0 50px;
+  text-align: center;
+    color: #0BC7B4;
+}
+.carousel.scale .left-arrow,
+.carousel.scale .right-arrow {
+  top: 15%;
+  position: absolute;
+}
+.carousel.scale .left-arrow {
+  left: -10px;
+}
+.carousel.scale .right-arrow {
+  right: -10px;
+}
+.carousel .scale .active .row > div:nth-child(1) {
+  -webkit-animation: scaleUp 200ms linear 0 both;
+  -moz-animation: scaleUp 200ms linear 0 both;
+  -ms-animation: scaleUp 200ms linear 0 both;
+  -o-animation: scaleUp 200ms linear 0 both;
+  animation: scaleUp 200ms linear 0 both;
+}
+.carousel.scale .active .row > div:nth-child(2) {
+  -webkit-animation: scaleUp 200ms linear 100ms both;
+  -moz-animation: scaleUp 200ms linear 100ms both;
+  -ms-animation: scaleUp 200ms linear 100ms both;
+  -o-animation: scaleUp 200ms linear 100ms both;
+  animation: scaleUp 200ms linear 100ms both;
+}
+.carousel.scale .active .row > div:nth-child(3) {
+  -webkit-animation: scaleUp 200ms linear 200ms both;
+  -moz-animation: scaleUp 200ms linear 200ms both;
+  -ms-animation: scaleUp 200ms linear 200ms both;
+  -o-animation: scaleUp 200ms linear 200ms both;
+  animation: scaleUp 200ms linear 200ms both;
+}
+.carousel.scale .active .row > div:nth-child(4) {
+  -webkit-animation: scaleUp 200ms linear 400ms both;
+  -moz-animation: scaleUp 200ms linear 400ms both;
+  -ms-animation: scaleUp 200ms linear 400ms both;
+  -o-animation: scaleUp 200ms linear 400ms both;
+  animation: scaleUp 200ms linear 400ms both;
+}
